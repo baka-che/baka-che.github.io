@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sculptor box - Мир профессионального бокса</title>
+    <link rel="stylesheet" href="cssstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-fist-raised"></i>
+                <span>SCULPTOR BOXING</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#schedule" class="nav-link">Расписание</a></li>
+                <li><a href="#fighters" class="nav-link">Бойцы</a></li>
+                <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>ДОБРО ПОЖАЛОВАТЬ В МИР БОКСА</h1>
+            <p>Профессиональный боксёрский клуб для чемпионов</p>
+            <button class="cta-button">Начать тренировки</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О НАШЕМ КЛУБЕ</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Два года назад мы создали пространство для тех, кто готов меняться. Здесь ценят дисциплину, но уважают личные цели каждого. Наш тренер — чемпион, который верит в системный подход: он не будет кричать, но потребует полной отдачи.
+Мы понимаем, что каждый приходит со своим уровнем подготовки. Поэтому предлагаем четкий путь роста: от первых ударов до выхода на ринг. Ты получишь поддержку команды и персональное внимание тренера.
+Наши двери открыты для всех, кто готов работать над собой. Приходи на пробную тренировку и почувствуй атмосферу настоящего бокса. Сделай первый шаг к сильной версии себя..</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3 data-target="90">90+</h3>
+                            <p>Тренировок в месяц</p>
+                        </div>
+                        <div class="stat">
+                            <h3 data-target="40">40+</h3>
+                            <p>Любительских чемпионских титулов</p>
+                        </div>
+                        <div class="stat">
+                            <h3 data-target="20">14</h3>
+                            <p>Участников зала</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://th.bing.com/th/id/R.18ecf0b95e290c8c14272b668e635ae1?rik=vTC28jxZUHNzfQ&pid=ImgRaw&r=0" alt="Boxing Gym">
+                </div>
+            </div>
+            
+            <!-- Преимущества -->
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-dumbbell"></i>
+                    <h4>Профессиональное оборудование</h4>
+                    <p>Современные боксерские мешки и тренажеры</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-trophy"></i>
+                    <h4>Подготовка к соревнованиям</h4>
+                    <p>Опытные тренеры помогут достичь ваших целей</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-users"></i>
+                    <h4>Командная атмосфера</h4>
+                    <p>Поддержка и мотивация от единомышленников</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Баннер мотивации -->
+    <section class="motivation-banner">
+        <div class="container">
+            <h3>СТАНЬ ЛУЧШЕЙ ВЕРСИЕЙ СЕБЯ</h3>
+            <p>Присоединяйся к команде чемпионов и начни свой путь к победам</p>
+        </div>
+    </section>
+
+    <!-- Расписание -->
+    <!-- Расписание -->
+<section id="schedule" class="schedule">
+    <div class="container">
+        <h2>РАСПИСАНИЕ ТРЕНИРОВОК</h2>
+        <div class="schedule-grid">
+            <div class="schedule-day">
+                <h3>⚡ СИЛОВОЙ ДЕНЬ</h3>
+                <span class="day-label">ПОНЕДЕЛЬНИК</span>
+                <ul>
+                    <li><strong>19:00-21:00</strong> - Железная воля: работа с весами и функциональный тренинг</li>
+                </ul>
+                <div class="training-focus">
+                    <span>💪 Сила</span>
+                    <span>🔥 Выносливость</span>
+                </div>
+            </div>
+            <div class="schedule-day">
+                <h3>🎯 ТЕХНИЧЕСКИЙ ДЕНЬ</h3>
+                <span class="day-label">СРЕДА</span>
+                <ul>
+                    <li><strong>19:00</strong> - Чистая техника: отработка ударов и комбинаций</li>
+                    <li><strong>20:00</strong> - Функциональный тренинг: ОФП и работа на выносливость</li>
+                    <li><strong>21:00</strong> - Завершение тренировки</li>
+                </ul>
+                <div class="training-focus">
+                    <span>🥊 Техника</span>
+                    <span>⚡ Скорость</span>
+                    <span>🎯 Точность</span>
+                </div>
+            </div>
+            <div class="schedule-day">
+                <h3>🥊 БОЕВОЙ ДЕНЬ</h3>
+                <span class="day-label">ПЯТНИЦА</span>
+                <ul>
+                    <li><strong>19:00</strong> - Боевая разминка: подготовка к спаррингам</li>
+                    <li><strong>20:00</strong> - Работа в парах: спарринги и боевая практика</li>
+                    <li><strong>21:00</strong> - Финальный раунд: силовая нагрузка</li>
+                </ul>
+                <div class="training-focus">
+                    <span>👊 Спарринги</span>
+                    <span>💥 Реакция</span>
+                    <span>🛡️ Защита</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Дополнительная информация -->
+        <div class="schedule-info">
+            <div class="info-card">
+                <i class="fas fa-dumbbell"></i>
+                <h4>Для всех уровней</h4>
+                <p>Подходит как для новичков, так и для опытных бойцов</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-user-friends"></i>
+                <h4>Индивидуальный подход</h4>
+                <p>Тренер уделяет внимание каждому спортсмену</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-trophy"></i>
+                <h4>Прогресс гарантирован</h4>
+                <p>Регулярные тренировки по четкому плану</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Бойцы -->
+    <section id="fighters" class="fighters">
+        <div class="container">
+            <h2>НАШИ БОЙЦЫ</h2>
+            <div class="fighters-grid">
+                <div class="fighter-card">
+                    <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fighter 1">
+                    <h3>Клешнин Никита</h3>
+                    <p>Средний вес</p>  
+                    <span class="record">10-0-0</span>
+                </div>
+                <div class="fighter-card">
+                    <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fighter 2">
+                    <h3>Алексей Смирнов</h3>
+                    <p>Полутяжёлый вес</p>
+                    <span class="record">18-1-0</span>
+                </div>
+                <div class="fighter-card">
+                    <img src="https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fighter 3">
+                    <h3>Дмитрий Иванов</h3>
+                    <p>Средний вес</p>
+                    <span class="record">22-2-1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>ГАЛЕРЕЯ</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Gallery 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551969014-7d2a4c68c2da?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Gallery 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1626248801371-2e1f4edf58f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Gallery 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Gallery 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+<section id="reviews" class="reviews">
+    <div class="container">
+        <h2>ОТЗЫВЫ</h2>
+        <div class="reviews-content">
+            <div class="reviews-list">
+                <h3>Ваши отзывы</h3>
+                <div id="reviewsContainer">
+                    <!-- Сюда будут добавляться отзывы -->
+                    <div class="no-reviews">
+                        <p>Пока нет отзывов. Будьте первым!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="review-form">
+                <h3>Оставить отзыв</h3>
+                <form id="reviewForm">
+                    <div class="form-group">
+                        <label for="reviewerName">Ваше имя:</label>
+                        <input type="text" id="reviewerName" required placeholder="Как к вам обращаться?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reviewRating">Оценка:</label>
+                        <div class="rating-stars">
+                            <span class="star" data-rating="1">☆</span>
+                            <span class="star" data-rating="2">☆</span>
+                            <span class="star" data-rating="3">☆</span>
+                            <span class="star" data-rating="4">☆</span>
+                            <span class="star" data-rating="5">☆</span>
+                        </div>
+                        <input type="hidden" id="reviewRating" value="0" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reviewText">Ваш отзыв:</label>
+                        <textarea id="reviewText" rows="5" required placeholder="Поделитесь вашими впечатлениями..."></textarea>
+                    </div>
+                    
+                    <button type="submit">Опубликовать отзыв</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>КОНТАКТЫ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>АДРЕС</h4>
+                            <p>ул. 50 лет Октября, 8А<br>посёлок Иноземцево</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>ТЕЛЕФОН</h4>
+                            <p><a href="tel:+78005553535">+7 (800) 555-35-35</a></p>
+                            <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>РЕЖИМ РАБОТЫ</h4>
+                            <p>Понедельник - Пятница: 07:00 - 22:00</p>
+                            <p>Суббота - Воскресенье: 09:00 - 20:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>EMAIL</h4>
+                            <p><a href="mailto:info@sculptor-boxing.ru">info@sculptor-boxing.ru</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>ОСТАВИТЬ ЗАЯВКУ</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" required placeholder="Ваше имя">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="contactPhone" required placeholder="Ваш телефон">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="contactMessage" rows="4" placeholder="Сообщение (необязательно)"></textarea>
+                        </div>
+                        
+                        <button type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Карта -->
+    <div class="map-container">
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/org/skulptor/1150882071/?utm_medium=mapframe&utm_source=maps" 
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Скульптор</a>
+            <a href="https://yandex.ru/maps/11069/stavropol-krai/category/fitness_club/184107363/?utm_medium=mapframe&utm_source=maps" 
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Фитнес-клуб в Ставропольском крае</a>
+            <iframe 
+                src="https://yandex.ru/map-widget/v1/?ll=43.089499%2C44.110993&mode=poi&poi%5Bpoint%5D=43.089134%2C44.111134&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1150882071&z=19.53" 
+                width="100%" 
+                height="400" 
+                frameborder="1" 
+                allowfullscreen="true" 
+                style="position:relative;">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sculptor Boxing. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
